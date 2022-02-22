@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe192656-09fb-46fc-ab76-323b8a6270be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/market-master/.github/workflows/maven.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/.github/workflows/publish.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/README_RU.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/database-model.mwb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/DataConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/ServletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/SpringExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/backend/BackendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/backend/DistilleryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/backend/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/backend/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/backend/RegionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/backend/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/frontend/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/frontend/CheckoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/frontend/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/frontend/FrontendController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/controller/frontend/ShowcaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dao/CartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dao/ContactsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dao/DistilleryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dao/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dao/OrderedProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dao/RegionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dao/UserAccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/CartItemId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/Contacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/Distillery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/OrderedProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/OrderedProductId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/domain/UserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/BillDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/CartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/CartItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/ContactsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/CreditCardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/DistilleryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/OrderedProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/ProductPreviewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/RegionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/BillDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/CartDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/ContactsDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/DistilleryDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/OrderDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/OrderedProductDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/ProductDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/ProductPreviewAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/RegionDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/dto/assembler/UserAccountDtoAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/exception/CustomNotValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/exception/EmailExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/exception/EmptyCartException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/exception/UnknownEntityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/exception/dto/FieldErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/exception/dto/ValidationErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/interceptors/SessionCartInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/properties/MarketProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/properties/PaginationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/rest/CartRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/rest/ContactsRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/rest/CustomerRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/rest/OrdersRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/rest/ProductsRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/rest/exception/RestErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/rest/exception/RestExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/security/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/security/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/ContactsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/DistilleryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/RegionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/UserAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/impl/ContactsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/impl/DistilleryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/impl/RegionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/service/impl/UserAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/sorting/AbstractSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/sorting/ISorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/sorting/OrderSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/sorting/ProductBackendSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/sorting/ProductSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/sorting/SortingValuesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/java/market/sorting/StorageSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/market.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/messages_ru.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/css/market-styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/carousel/Balvenie-orig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/carousel/Balvenie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/carousel/Laphroaig-orig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/carousel/Laphroaig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/checkout-flow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/database-model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Ardbeg/Ten.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Ardbeg/Uigeadail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Balvenie/12 y.o. Doublewood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Caol Ila/12 y.o..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Dalwhinnie/15 y.o..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Glenkinchie/12 y.o..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Lagavulin/16 y.o..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Laphroaig/Quarter Cask.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Springbank/12 y.o. Cask Strength Batch 6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Springbank/18 y.o..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/Talisker/10 y.o..jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/products/default-whisky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Campbeltown-preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Campbeltown.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Highland-preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Highland.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Island-preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Island.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Islay-preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Islay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Lowland-preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Lowland.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Speyside-preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/Speyside.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/src/Campbeltown.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/src/Highland_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/src/Island_.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/src/Islay_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/src/Lowland_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/img/regions/src/Speyside.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/js/jquery-1.9.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/static/js/jquery-validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/backend/distillery-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/backend/filters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/backend/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/backend/product-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/backend/region-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/backend/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/frontend/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/frontend/products-filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/frontend/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/_layouts/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/distilleries.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/distilleries/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/distilleries/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/products/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/products/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/regions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/regions/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/regions/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/admin/storage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/checkout/confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/checkout/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/checkout/payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/customer/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/customer/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/inside.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/regions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/main/resources/templates/rest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/FixturesFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/backend/BackendControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/backend/DistilleryControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/backend/OrdersControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/backend/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/backend/RegionControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/backend/StorageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/frontend/CartControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/frontend/CheckoutControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/frontend/CustomerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/frontend/FrontendControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/controller/frontend/ShowcaseControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/service/CartServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/service/ContactsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/service/DistilleryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/service/OrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/service/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/service/RegionServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market-master/src/test/java/market/service/UserAccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/java/ru/alishev/springcourse/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/java/ru/alishev/springcourse/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/java/ru/alishev/springcourse/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/java/ru/alishev/springcourse/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/java/ru/alishev/springcourse/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/java/ru/alishev/springcourse/RockMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/java/ru/alishev/springcourse/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/java/ru/alishev/springcourse/TestSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/java/ru/alishev/springcourse/TrapMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/resources/musicPlayer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-app1/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_aop_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_beans_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_context_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_core_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_expression_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_orm_5_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_tx_5_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_web_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/spring-mvc-app1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/java/springcourse/TestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/java/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/java/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/java/springcourse/controllers/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/resources/templates/first/goodBye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/resources/templates/first/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/resources/templates/first/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/resources/templates/second/exit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/SpringMVCApp1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc-app2/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/untitled.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="243ApOfskV1AguRaRsZUCYg75YI" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe192656-09fb-46fc-ab76-323b8a6270be" name="Changes" comment="" />
+      <created>1642849081166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642849081166</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
